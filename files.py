@@ -12,5 +12,5 @@ def save_file(file_name, data):
 def load_file (file_name):
     with open (file_name, "r") as file:
         json_string=file.read()
-    data=json.loads(json_strinG)
+    data=json.loads(json_string)
     return data
