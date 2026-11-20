@@ -5,7 +5,7 @@ def  main():
     print("4: Edit the expense categories")
     print("5: Add the expenses")
     print("6: Exit")
-    choice = input("enter your choice:")
+choice = input("enter your choice:")
 if choice == "1":
         file_name=input("type a new expense file name:")
         create_file(file_name)
