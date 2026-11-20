@@ -9,7 +9,6 @@ def  main():
 if choice == "1":
         file_name=input("type a new expense file name:")
         create_file(file_name)
-from files import create_file, load_file, save_file
 elif choice=="2":
     file_name=input ("type a expense file name:")
     data=load_file(file_name)
@@ -20,5 +19,6 @@ elif choice=="4":
     category = input("type in a new category:")
     data["categories"].append(category)
     save_file(file_name, data)
+from files import create_file, load_file, save_file
 if __name__ == "__main__":
     main()
