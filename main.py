@@ -5,6 +5,6 @@ def  main():
     print("4: Edit the expense categories")
     print("5: Add the expenses")
     print("6: Exit")
-
+    choice = input("enter your choice:")
 if __name__ == "__main__":
     main()
