@@ -17,7 +17,7 @@ def  main():
         file_name=input ("type the name of the expense file:")
         data=load_file(file_name)
         category = input("type in a new category:")
-        data["categories"].append(category)
+        data["Categories"].append(category)
         save_file(file_name, data)
 from files import create_file, load_file, save_file
 if __name__ == "__main__":
