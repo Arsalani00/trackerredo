@@ -9,6 +9,10 @@ def  main():
     if choice == "1":
         file_name=input("type a new expense file name:")
         create_file(file_name)
-from files import create_file
+from files import create_file, load_file
+elif choice=="2":
+    file_name=input ("enter the expense file name:")
+    data=load_file(file_name)
+print(data)
 if __name__ == "__main__":
     main()
